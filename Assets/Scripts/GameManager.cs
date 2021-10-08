@@ -16,13 +16,4 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
-    public GameObject player;
-
-    [HideInInspector]
-    public PlayerController pc;
-
-    void Start()
-    {
-        pc = player.GetComponent<PlayerController>();
-    }
 }
